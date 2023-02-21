@@ -1,0 +1,11 @@
+<h2>My Events</h2>
+<ul class="events">
+  <li *ngFor="let event of events">
+    <div class="cards">
+      <p>{{event.id}}</p>
+      <p>{{event.title}}</p>
+      <p>{{event.time}}</p>
+      <p>{{event.type}}</p>
+    </div>
+  </li>
+</ul>
