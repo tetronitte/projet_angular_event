@@ -1,6 +1,9 @@
-export interface Event {
-  id: number;
-  title: string;
-  time: string;
-  type: string;
+export class Event {
+
+  constructor(
+    public id: number,
+    public title: string,
+    public time: string,
+    public type: string
+  ) {}
 }

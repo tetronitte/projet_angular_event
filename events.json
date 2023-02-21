@@ -1,6 +1,5 @@
 {
-  "events":
-  [
+  "events": [
     {
       "id": 1,
       "title": "Réveil",
@@ -52,7 +51,7 @@
     {
       "id": 9,
       "title": "Coucher",
-      "time": "23:00",
+      "time": "23:30",
       "type": "Routine"
     }
   ]
